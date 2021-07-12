@@ -10,9 +10,9 @@ func main() {
 	fmt.Scan(&input)
 
 	var (
-		third  int = input % 10
-		second int = input % 100 / 10
-		first  int = input / 100
+		third  = input % 10
+		second = input % 100 / 10
+		first  = input / 100
 	)
 
 	if first != second && second != third && first != third {
