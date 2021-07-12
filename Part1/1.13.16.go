@@ -20,7 +20,6 @@ func filter(n, excluded int) int {
 	var xs string
 	var current int
 
-	current = n
 	for {
 		if n == 0 {
 			break
