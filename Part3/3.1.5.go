@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	// start
 	var n int
 	var cache = map[int]int{}
 
@@ -20,6 +21,7 @@ func main() {
 
 		fmt.Print(cache[n], " ")
 	}
+	// end
 }
 
 func work(n int) int {
